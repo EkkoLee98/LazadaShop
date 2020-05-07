@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{font_830376_qzecyukz0s, index, securesdk_lzd_v1, vue, vue-router, vuex}" />
+  </component>
+</project>

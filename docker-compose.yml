@@ -1,0 +1,31 @@
+version: '2'
+services:
+    mysql1:
+        environment:
+            MYSQL_ROOT_PASSWORD: "Hahaha1111"
+            MYSQL_USER: 'test'
+            MYSQL_PASS: 'woailwt123...'
+        image: "docker.io/mysql:8.0.18" 
+        container_name: mysql1
+        ports:
+            - "3306:3306"
+    nginx:
+            container_name: nginx
+            image: nginx:latest
+            restart: always
+            ports:
+                    - 80:809
+                    - 443:443
+            volumes:
+                    - ./volumes/nginx/conf.d:/etc/nginx/conf.d
+                    - ./volumes/nginx/cert:/etc/nginx/cert
+                    - ./volumes/html:/usr/share/nginx/html
+    redis:
+            container_name: redis
+            image: redis:3.2
+            restart: always
+            command: redis-server --appendonly yes
+            volumes:
+                    - ./volumes/redis/data:/data
+            ports:
+                    - 6379:6379

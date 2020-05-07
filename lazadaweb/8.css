@@ -1,0 +1,58 @@
+
+.header1[data-v-2ad117ef]{
+    margin-bottom: 5px;
+    height: 150px;
+}
+.logo[data-v-2ad117ef]{
+    display: inline-block;
+    height: 100px;
+}
+.title[data-v-2ad117ef]{
+    display: inline-block;
+    height: 100px;
+    margin-left: 50px;
+}
+#login-wrap[data-v-2ad117ef] {
+    background-repeat: no-repeat;
+    /*position: relative;*/
+    background-image: url(/assets/images/login-bg.jpg);
+    height:600px;
+    width:1900px;
+    margin: 0 auto;
+    background-size: 100%;
+}
+.ms-title[data-v-2ad117ef] {
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.ms-login[data-v-2ad117ef] {
+    position: absolute;
+    left: 55%;
+    top: 30%;
+    width: 350px;
+    /*margin: -190px 0 0 -175px;*/
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+}
+.ms-content[data-v-2ad117ef] {
+    padding: 30px 30px;
+}
+.login-btn[data-v-2ad117ef] {
+    text-align: center;
+}
+.login-btn button[data-v-2ad117ef] {
+    width: 100%;
+    height: 36px;
+    margin-bottom: 10px;
+}
+.login-tips[data-v-2ad117ef] {
+    font-size: 12px;
+    line-height: 30px;
+    color: #fff;
+}
+
